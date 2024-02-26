@@ -6,6 +6,7 @@ function NavBar() {
     return (
         <>
             <header>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <Link className="site-logo" to="/">#VanLife</Link>
                 <nav>
                     <Link to="/about">About</Link>
